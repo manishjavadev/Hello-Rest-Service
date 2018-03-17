@@ -4,20 +4,20 @@ package com.manishjavadev.model;
  * @author Manish
  *
  */
-public class AccountEntity {
+public class StudentEntity {
 	private Long accountId;
 	private String firstName;
 	private String lastName;
 	private int age;
 
-	public AccountEntity(String firstName, String lastName, int age) {
+	public StudentEntity(String firstName, String lastName, int age) {
 		super();
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
 	}
 
-	public AccountEntity(Long accountId, String firstName, String lastName, int age) {
+	public StudentEntity(Long accountId, String firstName, String lastName, int age) {
 		super();
 		this.accountId = accountId;
 		this.firstName = firstName;
